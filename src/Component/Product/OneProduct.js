@@ -11,14 +11,16 @@ class OneProduct extends Component {
                         <ReactImageMagnify 
                             {...{
                                 smallImage: {
+                                    width: 300,
+                                    height:300,
                                     isFluidWidth: true,
                                     src: this.props.detail.picture1,
                                     sizes: '(min-width: 300px) 250vw, (min-width: 100px) 250vw, 500vw'
                                 },
                                 largeImage: {
                                     src: this.props.detail.picture1,
-                                    width: 100,
-                                    height: 1000
+                                    width: 300,
+                                    height: 500
                                 }
                             }} 
                         />
