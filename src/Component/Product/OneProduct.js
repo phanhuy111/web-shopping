@@ -13,7 +13,7 @@ class OneProduct extends Component {
                                 smallImage: {
                                     isFluidWidth: true,
                                     src: this.props.detail.picture1,
-                                    sizes: '(min-width: 500px) 25vw, (min-width: 500px) 25vw, 50vw'
+                                    sizes: '(min-width: 300px) 250vw, (min-width: 100px) 250vw, 500vw'
                                 },
                                 largeImage: {
                                     src: this.props.detail.picture1,
