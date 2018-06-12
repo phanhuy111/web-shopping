@@ -1,0 +1,42 @@
+.container4 {
+    position:  relative;
+    display:  inline-block;
+    width:  960px;
+    left:  28%;
+    margin-top: 38px;
+}
+
+.trongh1 h1 {
+    font-size:  24px;
+}
+
+.duoih1 {
+    padding: 10px 25px;
+    line-height:  25px;
+}
+
+.ul1 ul {
+    list-style:  none;
+}
+
+.duoih1 p {
+    margin-left: -24px;
+}
+
+button.nuturl{
+    margin-left: 15px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: black;
+    width: 100px;
+}
+
+input.nhapurl{
+    width: 400px;
+    margin-left: 15px;
+}
+
+.react-player {
+    margin-bottom: 40px;
+    margin-left: -5px;
+}

@@ -1,0 +1,56 @@
+.account-profile.register-form {
+    width: 465px;
+    margin-left: 380px;
+    background:  beige;
+    float: left;
+    margin-top: 3%;
+}
+
+form#edit-account {
+    padding: 20px 30px;
+}
+
+fieldset.birthday-picker {
+    display:  inline-block;
+}
+
+.content-right {
+    width:956px;;
+    float: left;
+    margin-left: 28%;
+    margin-top: 42px;
+}
+
+.dashboard-order.have-margin {
+    background-color: beige; 
+}
+
+h1.have-margin {
+    font-size: 25px;
+}
+
+.input-wrap .row {
+    margin: 5px 20px;
+}
+
+.input-wrap .row .col-xs-4 {
+    padding: 0px 10px;
+}
+
+.list th{
+    padding: 10px 30px;
+}
+
+.list td{
+    padding: 10px 17px;
+}
+
+/* file Todo */
+
+.account-profile1.register-form1 {
+    width: 465px;
+    margin-left: 849px;
+    background: beige;
+    float: left;
+    margin-top: -40%;
+}

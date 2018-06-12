@@ -1,0 +1,314 @@
+.trai5 {
+    position: relative;
+    float:  le;
+    float:  left;
+    left: 10%;
+    margin-top: 15px;
+}
+
+.row {
+    position:  relative;
+    float:  left;
+}
+
+.trai5 img {
+    width: 480px;
+    height: 666px;
+}
+
+.traiduoi {
+    position:  absolute;
+    display: -webkit-box;
+    float:  left;
+    padding: 10px 8px;
+}
+
+.hinh71 {
+    width: 100px;
+    padding: 5px 0px;
+    margin-left:  35px;
+}
+
+.traiduoi img {
+    width:  100px;
+    height: 110px;
+}
+
+.phai5 {
+    position:  relative;
+    float:  left;
+    left:  15%;
+    margin-top: 30px;
+}
+
+.hangtren h1 {
+    font-size:  24px;
+    font-family:  -webkit-body;
+}
+
+.hangduoi1 span {
+    font-size: 22px;
+    font-weight:  700;
+}
+
+.hangduoi1 {
+    margin-top:  -5px;
+}
+
+.hangduoi label {
+    padding: 5px 30px;
+    font-weight:  bolder;
+}
+
+.hangduoi span{
+    position:  relative;
+}
+
+.hidden {
+    display:  none;
+}
+
+label.variant-option-item {
+    border:  1px solid;
+    padding: 2px 12px;
+    margin-top:  12px;
+}
+
+label.variant-option-item:hover{
+    color: #e95144;
+    border-color: #e95144;
+    
+}
+
+label.dis_block.m-b-5 {
+    display:  -webkit-box;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input.quantity.text-center {
+    width: 40px;
+    border-left:  0;
+    border-right: 0;
+    float:  left;
+    border:  1px solid #cbcbcb;
+    height:  35px;
+}
+
+button.button.p-minus.b-r-0 {
+    width: 35px;
+    float:  left;
+    height:  35px;
+}
+
+button.button.p-plus.b-l-0 {
+    width: 35px;
+    height:  35px;
+}
+
+.form-input button {
+    background:  #fff;
+    border: 1px solid #cbcbcb;
+}
+
+button.nutthem {
+    border:  1px solid transparent;
+    background:  black;
+    color: white;
+    width:  140px;
+    height:  38px;
+}
+
+button.nutthem:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    transform: rotateX(1);
+    border: 1px solid;
+    
+}
+
+.hangduoi4 {
+    position:  relative;
+    margin-top:  28px;
+}
+
+label.text-italic {
+    font-style: italic;
+    font-weight:  600;
+}
+
+.tag a {
+    color:  deepskyblue;
+    text-decoration: none;
+}
+
+.tag a:hover{
+    color: black;
+    transition: 0.6s;
+}
+
+span.separator {color: deepskyblue;}
+
+.hangduoi5 {
+    position:  relative;
+    margin-top:  20px;
+}
+
+.hangduoi6 {
+    position:  relative;
+    margin-top: 20px;
+    display: -webkit-box;
+}
+
+.hangduoi6 p {
+    color: deepskyblue;
+}
+
+.hangduoi6 p:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+.hangduoi6 ul {
+    display: -webkit-box;
+    list-style:  none;
+    margin-left:  40px;
+    margin-top: 0px;
+}
+
+
+.hangduoi6 li {
+    padding: 0px 8px;
+}
+
+.hangduoi6 a {
+    color:  deepskyblue;
+    font-size: 13px;
+}
+
+.duoi5 {
+    position:  absolute;
+    top: 130%;
+}
+
+.duoi5 ul {
+    list-style:  none;
+    display:  -webkit-box;
+    padding: 10px 63px;
+}
+
+.duoi5 a {
+    text-decoration:  none;
+    font-size: 12px;
+    border: 0.5px solid black;
+    border-right: 1px;
+    padding: 10px 22px;
+    cursor: pointer;
+    font-weight:  600;
+    background-color:  #d0d0d0;
+    opacity: 0.78;
+
+}
+.duoi5 a:hover{
+background-color: white;   
+border-bottom: 0;   
+color: black;
+}
+
+.duoi5 li {
+    padding: 5px 0px;
+}
+
+.khoi8 {
+    width: 700px;
+    float:  left;
+    margin-left: 100px;
+}
+
+.khoi8 h1{
+        font-size: 18px;
+    font-family: sans-serif;
+}
+
+.khoi8 p{
+font-size:  13px;    
+line-height: 16px;
+}
+
+
+.motkhoi {
+    position: absolute;
+    float: left;
+    border: 1px solid;
+    width:  200px;
+    height: 290px;
+    left: 85%;
+    opacity: 0;
+}
+
+.motkhoi1{
+   position: fixed;
+   float: left;
+   border: 1px solid;
+   width: 190px;
+   height: 290px;
+   left: 86%;
+   opacity: 1;
+   transition: 0.4s;
+   z-index: 999;
+   top: 40%;
+}
+
+h3 {
+    font-size: 25px;
+    text-align:  center;
+}
+
+
+.product-title {
+    text-align:  center;
+}
+
+.prices {
+    text-align:  center;
+}
+
+.ProductImage {
+    text-align:  center;
+}
+
+
+.btn.add-to-cart.button11 {
+    border: 1px solid black;
+    display:  block;
+    width: 120px;
+    margin-left: 40px;
+    margin-top:  15px;
+}
+
+.btn.add-to-cart.button11:hover{
+background-color:  black;
+color:  white;
+transform-origin:  right;
+}
+
+div#facebook-comment {
+    position: absolute;
+    width: 1100px;
+    height: 300px;
+}
+
+.title.text-center {
+    width: 800px;
+    float: left;
+    margin-left: 278px;
+    margin-top: 180%;
+}
+
+#facebook-comment h2 {
+    font-size:  20px;
+    font-weight: 00;
+    font-weight:  600;
+}

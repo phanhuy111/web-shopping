@@ -1,0 +1,83 @@
+.slideduoi {
+    margin: 40px 30px;
+}
+
+.slideduoi .hinh1 {
+    width: 275px;
+    height: 275px;
+}
+
+.buttonslide {
+    position: absolute;
+    top:200%;
+}
+
+.buttontrai, .buttonphai{
+    background-color: transparent;
+    border: none;
+}
+
+.buttonslide img{
+    width: 55px;
+    height: 65px;
+}
+
+.slideduoi {
+    margin: 40px 30px;
+}
+
+.slideduoi .hinh1 {
+    width: 275px;
+    height: 275px;
+}
+
+.buttonslide {
+    position: absolute;
+    top: 102%;
+}
+
+.buttontrai, .buttonphai{
+    background-color: transparent;
+    border: none;
+}
+
+
+.buttontrai img{
+    position: absolute;
+    left: -130%;
+    top: 68%;
+}
+
+.buttonphai img{
+    margin-left: 1263px;
+    position:  absolute;
+} 
+
+.buttonslide img{
+    width: 42px;
+    height: 65px;
+}
+
+.chunhat123 {
+    position: absolute;
+    width: 275px;
+    height: 45px;
+    background-color: black;
+    margin-top: -45px;
+    opacity: 0.7;
+  }
+
+.chunhat123 h3{
+    margin: 12px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.chunhat123:hover{
+    animation: chunhat123 0.5s paused;
+}
+
+@keyframes chunhat123 {
+    0% { height: 150px; margin-top: -150px }
+}

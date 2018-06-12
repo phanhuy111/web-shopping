@@ -1,0 +1,71 @@
+
+.lienhe {
+    position: absolute;
+    width: 715px;
+    height: 100%;
+}
+
+.chu4 h1 {
+    font-size: 20px;
+}
+
+.chu4 p {
+    font-size: 13px;
+}
+
+.lienlac {
+    position: relative;
+    float: right;
+    padding: 0px 45px;
+    margin-top: 0px;
+    width: 700px;
+}
+
+.duoi4 {
+    display: block;
+    margin-top: 15px;
+}
+
+.chu4 {
+    margin: 10px 20px;
+}
+
+.o2 {
+    margin: 10px 20px;
+}
+
+.otren {
+    padding: 5px 5px;
+}
+
+textarea {
+    width: 600px;
+    margin-left: 23px;
+}
+
+
+.o2 button {
+    margin-left: 24px;
+    width: 135px;
+    height: 30px;
+    border: 0px solid transparent;
+    background: black;
+    color: white;
+}
+
+.o2 button:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: 0.5px solid black;
+}
+
+.otren input[type="text"] {
+    width: 185px;
+    margin-left: 18px;
+}
+
+.khoi1, .khoi2, .khoi3 {
+    display: grid;
+    padding: 12px 20px;
+}

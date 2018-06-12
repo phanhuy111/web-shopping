@@ -1,0 +1,133 @@
+footer{
+    background-color: black;
+    width: 100%;
+    height: 260px;
+    position: relative;
+    float: left; 
+    margin-top: auto;
+}
+
+footer .benphai {
+    display: -webkit-inline-box;
+}
+
+.benphai h1 {
+    font-size: 13px;
+    color: white;
+    padding-left: 45px;
+}
+
+.benphai .day1 {
+    padding: 30px;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
+
+.duoi ul { 
+    margin-top: -5px;
+}
+
+.duoi ul li {
+    list-style: none;
+    padding-top: 7px;
+    padding-left: -12px;
+    color: white;
+    padding-left: 7px;
+}
+
+.benphai ul li a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.bentrai {
+    width: auto;
+    height: 260px;
+    float: right;
+    margin-right: 115px;
+    padding: 5px;
+}
+
+.dangki {
+    height: -10px;
+    padding: 1px 21px;
+}
+
+.ketnoi h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.bentrai h1 {
+    font-size: 18px;
+    color: white;
+}
+
+.ketnoi {
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+.bentrai .logo ul {
+  list-style: none;
+  display: inline-block;
+
+}
+
+.logo {
+    display:  inline;
+    margin-left: 8px;
+}
+
+.bentrai .logo ul{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 9px;
+    border: 1px solid navy;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bentrai .logo a {
+    color:  transparent;
+    text-align: center;
+    padding: 0px 5px;
+    background: url(../image/facebook.png) no-repeat;
+}
+
+
+
+.nutxem1 {
+     position: relative;
+    margin-top: 357px;
+    margin-bottom: 34px;
+    float: left;
+    margin-left: -64px;
+}
+
+button.xem1 {
+    width:  130px;
+    height: 38px;
+    font-size:  16px;
+    color: aliceblue;
+    background-color:  black;
+    border: 0px solid;
+}
+
+button.xem1:hover {
+    width:  130px;
+    height: 38px;
+    font-size:  16px;
+    color: black;
+    background-color:  white;
+    transition: 0,4s ease;
+    transition:  0.4s;
+    border: 0.5px solid;
+}
+
+
+
+
+    
+

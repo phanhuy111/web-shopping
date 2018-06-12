@@ -1,0 +1,89 @@
+section {
+    width: 100%;
+}
+
+.sanphammoi ul li a img {
+    width: 200px;
+}
+
+.sanphammoi ul {
+    list-style: none;
+    float: left;
+    width: 25%;
+    padding: 0px 75px;
+    overflow: hidden;
+}
+
+.tieude ul {
+    list-style: none;
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+section h1::before, section h1::after {
+    background: #272727;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 60px;
+    margin-top: 23px;
+    margin-left: -66px;
+}
+
+section h1::after {
+    top: auto;
+    left: 61.4%;
+}
+
+nav {
+    display: inline;
+    margin: auto;
+}
+
+.tieude {
+    position: relative;
+    margin: auto;
+}
+
+.tieude nav li {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid;
+    border: 10px 20px;
+    padding: 3px 20px;
+    margin: 8px 7px;
+}
+
+.tieude nav li:hover{
+    box-shadow: 1px 1px black;
+    cursor: pointer;
+}
+
+.tieude nav li a:hover{
+    color: black
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.sanphammoi a,p {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.thongtinsanpham{
+    padding: 0 0px;
+}
+
+.thongtinsanpham p{
+    margin: 0 10px
+}

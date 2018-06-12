@@ -1,0 +1,234 @@
+
+.top {
+    position: relative;
+    margin-top: 0px;
+    padding: 10px 25px;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.logo img {
+    width: 283px;
+    height: 90px;
+}
+
+.form {
+    position: absolute;
+    margin-left: 26%;
+    margin-top: -3%;
+    display: block;
+    width: 550px;
+    height: -52px;
+}
+
+.form .logo1 {
+    position: relative;
+    width: 325px;
+    height: 50px;
+    margin-top: -80px;
+}
+
+
+.logo1 ul {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.logo1 a.face {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../image/facebook.png') no-repeat;
+}
+
+.logo1 a.ins {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../image/instagram.png') no-repeat;
+}
+
+.logo1 a.google {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../image/google-plus-logo.png') no-repeat;
+}
+
+.logo1 a.twitter {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../image/twitter-logo-on-black-background.png') no-repeat;
+}
+
+form.search.search-form.clearfix {
+    width: 400px;
+    padding-bottom: -17px;
+    padding: 3px 25px;
+}
+
+.trai1 ul {
+    display: -webkit-inline-box;
+    list-style: none;
+    padding: 0px 0px;
+}
+
+.trai1 {
+    width: 320px;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.trai1 ul li {
+    padding-left: 30px;
+}
+
+i.fa.fa-shopping-bag, i.fa.fa-user, i.fa.fa-map-marker {
+    display: -webkit-box;
+    font-size: 36px;
+    padding: 10px 17px;
+}
+
+.dangnhap {
+    position:  absolute;
+    margin-top: -23px;
+    left: 56px;
+    display: -webkit-box;
+}
+
+.dangnhap .dangnhap1 a  {
+    padding-left: 0px;
+    color:  black;
+}
+
+.dangnhap .dangki a  {
+    color:  black;
+}
+
+.dangnhap1 {
+    border: .5px solid black;
+    border-bottom: 0;
+    border-top: 0;
+    padding: 0px 20px;
+}
+
+.giohang{ 
+     color: black;
+}
+
+.trai1 a{
+    text-decoration: none;
+}
+
+input#search_tern {
+    padding: 1px 1px;
+    width: 310px;
+    height: 35px;
+    background-color: aliceblue;
+    border: none;
+    padding: 15px;
+}
+
+button.ui-button {
+    width: 35px;
+    background: transparent;
+    border: none;
+    margin-left: 30-px;
+ 
+}
+
+nav.navbar.navbar-expand-md {  
+    position: relative;
+    margin-left: 23%;
+    padding: 8px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+
+ul.navbar-nav.mr-auto {
+    position: relative;
+}
+
+li.dropdown {
+    padding-left: 25px;
+}
+
+.chu1 {
+    position: absolute;
+    width: 500px;
+    height: 135px;
+}
+
+.chu1 h1 {
+    font-size: 50px;
+    color: white;
+    letter-spacing: 6px;
+    font-family: unset;
+    text-align: center;
+}
+
+.chu1 p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.chu1.mot{
+    top: 50%;
+    left: 33%;
+}
+
+.chu1.hai{
+    top: 25%;
+    left: 5%;
+}
+
+.chu1.ba{
+    top: 42%;
+    left: 50%;
+}
+
+.chu1.bon{
+    top: 40%;
+    left: 6%;
+}
+.chu1 p::before,.chu1 p::after{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 1px;
+    content: "";
+    margin: 0 20px;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdown-toggle {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dropdown-item.active{
+    padding: 0.25rem 4.5rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}

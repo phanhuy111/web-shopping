@@ -1,0 +1,200 @@
+.bentrai4 {
+    position: absolute;
+    width: 245px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.danhmuc1 h1 {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.menudoc {
+    position: relative;
+}
+
+.menudoc ul {
+    list-style: none;
+    margin-left: -15px;
+}
+
+.menudoc1 {
+    margin-top: 12px;
+}
+
+.thuonghieu {
+    border: 0.5px solid bisque;
+}
+
+.duoidanhmuc1 {
+    border: 0.5px solid bisque;
+}
+
+.mot, .hai, .ba, .bon, .nam {
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.tren {
+    border: 0.5px solid bisque;
+}
+
+.danhmuc1.muchai {
+    margin-top: 15px;
+}
+
+.kichthuoc h1 {
+    font-size: 15px;
+}
+
+.duoidanhmuc1 ul li a {
+    color: black;
+    text-decoration: none
+}
+
+.noidung {
+    position: absolute;
+    float: left;
+    width: 960px;
+    left: 26%;
+    top: 34%;
+}
+
+.nutxem {
+    position:  relative;
+    margin-left: 475px;
+}
+
+button.xem {
+    width:  130px;
+    height: 38px;
+    font-size:  16px;
+    color: aliceblue;
+    background-color:  black;
+    border: 0px solid;
+}
+
+button.xem:hover {
+    width:  130px;
+    height: 38px;
+    font-size:  16px;
+    color: black;
+    background-color:  white;
+    transition: 0,4s ease;
+    transition:  0.4s;
+    border: 0.5px solid;
+}
+
+
+i.fa.fa-chevron-down {
+    font-size: 10px;
+}
+
+.hinhanh4 {
+    position: relative;
+    display: -webkit-box;
+    padding: 10px 18px;
+}
+
+ul li  a img {
+    width: 204px;
+    height: 290px;
+}
+
+.hinhanh4 ul {
+    list-style: none;
+    padding: 6px 18px;
+}
+
+.tieude4 {
+    position: relative;
+    width: 164px;
+    height: 30px;
+    padding: -5px 20px;
+}
+
+.tieude4 h1 {
+    font-size: 20px;
+}
+
+.hang1 {
+    display: -webkit-inline-box;
+    padding: 20px;
+}
+
+.form .logo3 {
+    position: relative;
+    width: 325px;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+
+
+.logo3 ul {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.logo3 a.face {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../hinhanh/facebook.png') no-repeat;
+}
+
+.logo3 a.ins {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../hinhanh/instagram.png') no-repeat;
+}
+
+.logo3 a.google {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../hinhanh/google-plus-logo.png') no-repeat;
+}
+
+.logo3 a.twitter {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-indent: -999em;
+    background: url('../hinhanh/twitter-logo-on-black-background.png') no-repeat;
+}
+
+.chu5 h1 {
+    font-size: 17px;
+}
+
+.muahang{
+    margin: 0px 60px;
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    padding: 3px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

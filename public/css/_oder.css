@@ -1,0 +1,132 @@
+.thongtinnguoimua.col-sm-12.col-md-6 {
+    position:  relative;
+    float:  left;
+    width: 525px;
+    margin-left: 110px;
+}
+
+.thongtinnguoimua label {
+    display: inline-block;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+
+
+.tieude5 h4 {
+    font-size: 20px;
+    margin-top: 21px;
+    padding-left: 2px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+input#txtCustomerName {
+    width:  400px;
+}
+
+input#txtAddressLine {
+    width:  400px;
+}
+
+textarea#txtNote{
+    width:  400px;
+    margin-left: 0px;
+}
+
+.thongtinsanpham.col-sm-12.col-md-6 {
+    position: relative;
+    width: 587px;
+    margin-right: 10px;
+}
+
+.row {
+    display:  -webkit-box;
+    width: 99%;
+}
+
+.button5 button {
+    width: 555px;
+    color: white;
+    background-color:  black;
+    border:  1px solid;
+    height:  40px;
+}
+
+.button5 button:hover {
+    color:black;
+    background-color:white;
+    transition: 0.3s;
+}
+
+.cosonhanhang {
+    margin-bottom: -15px;
+}
+
+select#slTakeFromShop {
+    width: 400px;
+}
+
+
+.dongdau{
+    height: 95px;
+    width: 570px;
+    display: -webkit-box;
+    border: 0px solid;
+    box-shadow:0px 3px 10px 2px #888888;   
+}
+
+.dongdau img{
+    margin: 7px 15px;
+    width: 65px;
+    height: 80px;
+}
+
+.dongdau span{
+    position: absolute;
+    padding: 15px 12px;
+}
+
+.dongdau a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.congcu{
+    position: absolute;
+    margin: 10px 110px;
+    display: -webkit-box;
+}
+
+.gia{
+   padding: 25px 20px;  
+}
+
+.stepper-input{
+    margin: 10px 40px;
+}
+
+.stepper-input .decrement, .stepper-input .increment  {
+    font-size: 24px;
+    padding: 10px
+}
+
+.quantity{
+    width: 35px;
+    text-align: center;
+    margin: -6px -18px;
+}
+
+.delete{
+     margin: 8px 12px;
+}
+
+.total  {
+    display: -webkit-box;
+    padding: 5px 12px;
+}
+.total1{
+   margin-left: 328px;    
+}

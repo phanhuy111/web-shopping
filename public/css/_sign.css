@@ -1,0 +1,120 @@
+.col-md-6.col-sm-6.col-xs-12 {
+    position:  relative;
+    margin-top:  18px;
+    border:  1px solid beige;
+    padding: 10px 70px;
+    margin-left: 0px;
+}
+
+div#create-account {
+    padding-left:  100px;
+}
+
+button.btn.btn-outline.dangnhap2 {
+    width: 120px;
+    text-align:  center;
+    background: black;
+    color: white;
+}
+
+button.btn.btn-outline.dangnhap2:hover{
+    background: white;
+    color: black;
+    transition: 0.4s;
+    border: 0.8px solid black;
+}
+
+h2.title {
+    font-size:  22px;
+    margin-left: 35px;
+}
+
+
+button.btn.btn-outline.taotk {
+    width: 153px;
+    height: 42px;
+    margin-top: 10px;
+    background:  black;
+    color: white;
+}
+
+.email {
+    padding: 14px 0px;
+}
+
+.trangdangnhap label {
+    margin-bottom:  0;
+}
+
+.req_pass {
+    margin-top:  15px;
+    margin-left: -1px;
+}
+
+.taotk i.fa.fa-user {
+    font-size: 23px;
+    margin-left: -4px;
+    padding:  2px 5px;
+}
+
+.taotk span {
+    display:  -webkit-box;
+    padding: 2px 0px;
+}
+
+.action_bottom1 {
+    width: 139px;
+    border: 3px solid black;
+    margin-left: 135px;
+}
+
+i.fa.fa-user.tren {
+    margin-left: 12px;
+    font-size: 65px;
+    color:  black;
+}
+
+a:hover{
+    text-decoration: none;   
+}
+
+.cacdong {
+    padding:  5px 0px;
+}
+
+.req_pass p {
+    width:  425px;
+    margin-left:  1px;
+}
+
+.userbox1 {
+    position:  relative;
+}
+
+
+.accounttype h2.title {
+    font-size:  22px;
+    margin-left: 5px;
+}
+
+.accounttype {
+    margin-top: 12px;
+}
+
+.action_bottom {
+    margin-top: 8px;
+}
+
+.kidang{
+    background-color: black;
+    color: white;
+    border: 1px solid transparent;
+    padding: 3px 196px;
+}
+
+.kidang:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 100;
+}

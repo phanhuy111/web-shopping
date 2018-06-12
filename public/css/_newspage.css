@@ -1,0 +1,45 @@
+
+.trangtin {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+
+.tieudetin h1{
+    font-size: 21px;
+}
+
+.blog12{
+	display: -webkit-box;
+}
+
+.tin1, .tin2{
+	width:600px;
+	margin: 50px 0px;
+}
+
+.tin1 img{
+   transform-origin: top right;
+   margin-right: 15px;
+}
+.tin2 img{
+    transform-origin: top left;
+    margin-right: 5px;
+ }
+
+.blog12 .hinh1 img:hover {
+    transform: scale(1.1);
+  }
+
+
+.blog12 .hinh1 img {
+    width: 370px;
+    height: auto;
+    transition: transform 0.3s ease-in-out ;
+    overflow: hidden;
+}
+
+
+.bangtin{
+    margin-top:-12px;
+}
