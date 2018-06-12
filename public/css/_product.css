@@ -94,12 +94,15 @@ input.quantity.text-center {
     float:  left;
     border:  1px solid #cbcbcb;
     height:  35px;
+    margin-top: 0px;
+    margin-right: 2px;
 }
 
 button.button.p-minus.b-r-0 {
     width: 35px;
     float:  left;
     height:  35px;
+    margin-right: 20px;
 }
 
 button.button.p-plus.b-l-0 {

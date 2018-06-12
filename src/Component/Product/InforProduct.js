@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class InforProduct extends Component {
     render() {
         return (
-            <div class="container duoi5">
+            <div class="container duoi5" style={{marginTop: '150px'}}>
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="#home">CHI TIẾT SẢN PHẨM</a></li>
                     <li><a href="#menu1">BẢNG KÍCH THƯỚC</a></li>

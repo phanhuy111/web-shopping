@@ -31,6 +31,7 @@ $(function(){
         else {
             $('.motkhoi').removeClass('motkhoi1');
         }
-    });   
+    }); 
+    $("#zoom_01").elevateZoom();  
 });
 

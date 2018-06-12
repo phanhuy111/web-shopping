@@ -15,10 +15,6 @@ class InforProduct extends Component {
 
                     </div>
                 </div>
-
-                {/* <div class="slidesanpham">
-                    <Slide />
-                </div> */}
             </div>
         );
     }
