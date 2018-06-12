@@ -52,5 +52,9 @@ h1.have-margin {
     margin-left: 849px;
     background: beige;
     float: left;
-    margin-top: -40%;
+    margin-top: -35%;
+}
+
+.form-control{
+    padding: 2px 15px;
 }
