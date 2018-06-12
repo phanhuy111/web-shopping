@@ -15,7 +15,7 @@ class OneProduct extends Component {
                                     height:300,
                                     isFluidWidth: true,
                                     src: this.props.detail.picture1,
-                                    sizes: '(min-width: 300px) 250vw, (min-width: 100px) 250vw, 500vw'
+                                    sizes: '(min-width: 100px) 50vw, (min-width: 100px) 50vw, 100vw'
                                 },
                                 largeImage: {
                                     src: this.props.detail.picture1,
