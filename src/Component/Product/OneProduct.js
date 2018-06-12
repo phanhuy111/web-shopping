@@ -18,7 +18,7 @@ class OneProduct extends Component {
                                 largeImage: {
                                     src: this.props.detail.picture1,
                                     width: 100,
-                                    height: 200
+                                    height: 1000
                                 }
                             }} 
                         />
