@@ -111,6 +111,7 @@ i.fa.fa-shopping-bag, i.fa.fa-user, i.fa.fa-map-marker {
 .dangnhap .dangnhap1 a  {
     padding-left: 0px;
     color:  black;
+    text-decoration:  none;
 }
 
 .dangnhap .dangki a  {
