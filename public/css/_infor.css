@@ -37,6 +37,21 @@ h1.have-margin {
     padding: 0px 10px;
 }
 
+select.birth-day.form-control {
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+select.birth-month.form-control {
+    margin:  5px 0px;
+    padding: 0px;
+}
+
+select.birth-year.form-control {
+    margin:  5px 0px;
+    padding: 0px;
+}
+
 .list th{
     padding: 10px 30px;
 }
