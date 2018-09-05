@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import ReactImageMagnify from 'react-image-magnify';
+
 
 class OneProduct extends Component {
     render() {
@@ -8,23 +8,7 @@ class OneProduct extends Component {
             <div className="row" >
                 <div className="trai5">
                     <span>
-                        {/* <ReactImageMagnify 
-                            {...{
-                                smallImage: {
-                                    width: 300,
-                                    height:300,
-                                    isFluidWidth: true,
-                                    src: this.props.detail.picture1,
-                                    sizes: '(min-width: 100px) 50vw, (min-width: 100px) 50vw, 100vw'
-                                },
-                                largeImage: {
-                                    src: this.props.detail.picture1,
-                                    width: 1300,
-                                    height: 1500
-                                }
-                            }} 
-                        /> */}
-                        <img id="zoom_01" alt="" src={this.props.detail.picture1} data-zoom-image={this.props.detail.picture1}/>
+                        <img id="zoom_01" alt="" src={this.props.detail.picture1} />
                     </span>
                     <div className="traiduoi">
                         <div className="hinh71"><img src={this.props.detail.picture2} alt="" /></div>
@@ -116,7 +100,7 @@ class OneProduct extends Component {
 
 function mapStateToProps(state) {
     return {
-        detail: state.detail
+        detail: state.detail,
     };
 }
 

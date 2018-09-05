@@ -133,6 +133,10 @@ i.fa.fa-shopping-bag, i.fa.fa-user, i.fa.fa-map-marker {
     text-decoration: none;
 }
 
+.trai1 a:hover{
+    text-decoration: none;
+}
+
 input#search_tern {
     padding: 1px 1px;
     width: 310px;
@@ -236,3 +240,5 @@ li.dropdown {
     text-decoration: none;
     background-color: white;
 }
+
+

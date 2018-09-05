@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import logo from './../image/logo.png';
 import ChangeInfor from './ChangeInfor';
+import {  Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
         return (
             <div>
                 <div className="top" >
-                    <div className="logo"><a href="/"><img src={logo} alt="logo" /></a></div>
+                    <div className="logo"><Link to="/"><img src={logo} alt="logo" /></Link></div>
                     <div className="form">
                         <form data-awesome-search="" className="search search-form clearfix" action="/search">
                             <input type="hidden" name="type" value="product" />
@@ -17,16 +18,16 @@ class Header extends Component {
                         </form>
                         <div className="logo1">
                             <ul>
-                                <li><a href="https://www.facebook.com/phanjr.99" className="face wow bounceInUp"><span>facebook</span></a></li>
+                                <li><Link to="https://www.facebook.com/phanjr.99" className="face wow bounceInUp"><span>facebook</span></Link></li>
                             </ul>
                             <ul>
-                                <li><a href="https://www.facebook.com/phanjr.99" className="ins wow bounceInUp"><span>instagram</span></a></li>
+                                <li><Link to="https://www.facebook.com/phanjr.99" className="ins wow bounceInUp"><span>instagram</span></Link></li>
                             </ul>
                             <ul>
-                                <li><a href="https://www.facebook.com/phanjr.99" className="google wow bounceInUp"><span>google +</span></a></li>
+                                <li><Link to="https://www.facebook.com/phanjr.99" className="google wow bounceInUp"><span>google +</span></Link></li>
                             </ul>
                             <ul>
-                                <li><a href="https://www.facebook.com/phanjr.99" className="twitter wow bounceInUp"><span>twitter</span></a></li>
+                                <li><Link to="https://www.facebook.com/phanjr.99" className="twitter wow bounceInUp"><span>twitter</span></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -34,28 +35,28 @@ class Header extends Component {
                         <ChangeInfor />
                         <ul>
                             <li>
-                                <a href="/order" >
+                                <Link to="/order" >
                                     <div className="giohang">
                                         <i className="fa fa-shopping-bag faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Giỏ Hàng</span>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/infor">
+                                <Link to="/infor">
                                     <div className="giohang">
                                         <i className="fa fa-user faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Tài Khoản</span>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="">
+                                <Link  to="">
                                     <div className="giohang">
                                         <i className="fa fa-map-marker faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Địa Chỉ</span>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -65,31 +66,31 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/productpage1" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thời Trang Nam</a>
+                                <Link className="nav-link dropdown-toggle" to="/productpage1" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thời Trang Nam</Link>
                                 <div className="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a className="dropdown-item" href="/productpage1">Áo Nam</a>
-                                    <a className="dropdown-item" href="/productpage1">Quần Nam</a>
+                                    <Link className="dropdown-item" to="/productpage1">Áo Nam</Link>
+                                    <Link className="dropdown-item" to="/productpage1">Quần Nam</Link>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/productpage1" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thời Trang Nữ</a>
+                                <Link className="nav-link dropdown-toggle" to="/productpage1" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thời Trang Nữ</Link>
                                 <div className="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a className="dropdown-item" href="/productpage1">Áo Nữ</a>
-                                    <a className="dropdown-item" href="/productpage1">Quần Nữ</a>
+                                    <Link className="dropdown-item" to="/productpage1">Áo Nữ</Link>
+                                    <Link className="dropdown-item" to="/productpage1">Quần Nữ</Link>
                                 </div>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="/productpage1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phụ Kiện</a>
+                                <Link className="nav-link dropdown-toggle" to="/productpage1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Phụ Kiện</Link>
                                 <div className="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a className="dropdown-item" href="/productpage1">Phụ Kiện Nam</a>
-                                    <a className="dropdown-item" href="/productpage1">Phụ Kiện Nữ</a>
+                                    <Link className="dropdown-item" to="/productpage1">Phụ Kiện Nam</Link>
+                                    <Link className="dropdown-item" to="/productpage1">Phụ Kiện Nữ</Link>
                                 </div>
                             </li>
                             <li className="nav-item ">
-                                <a className="nav-link" href="/contact">Liên Hệ</a>
+                                <Link className="nav-link" to="/contact">Liên Hệ</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/intro">Giới Thiệu</a>
+                                <Link className="nav-link" to="/intro">Giới Thiệu</Link>
                             </li>
                         </ul>
                     </div>

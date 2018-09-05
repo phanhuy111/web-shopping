@@ -1,8 +1,58 @@
 import React, { Component } from 'react';
 import Slide from './../Slide';
+import {Link} from 'react-router-dom';
+// import initialState from './../Redux/Reducer/initialState';
 
 class List extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            checked: true
+        }
+    }
+    
+    changed = () =>{
+        if(this.state.checked === true){
+            this.props.filterBrand()
+        }
+        else{
+            this.props.showAll()
+        }
+       this.setState({checked: !this.state.checked});
+    }
+
+    changed1 = () =>{
+        if(this.state.checked === true){
+            this.props.filterBrand1()
+        }
+        else{
+            this.props.showAll()
+        }
+       this.setState({checked: !this.state.checked});
+    }
+
+    changed2 = () =>{
+        if(this.state.checked === true){
+            this.props.filterSize()
+        }
+        else{
+            this.props.showAll()
+        }
+       this.setState({checked: !this.state.checked});
+    }
+
+    changed3 = () =>{
+        if(this.state.checked === true){
+            this.props.filterSize1()
+        }
+        else{
+            this.props.showAll()
+        }
+       this.setState({checked: !this.state.checked});
+    }
+    
     render() {
+       
         return (
             <div className="bentrai4">
                 <div className="menudoc">
@@ -12,150 +62,150 @@ class List extends Component {
                     <div className="duoidanhmuc1">
                         <ul>
                             <li>
-                                <a href="/productpage1" className="phonglen">
+                                <Link  to="/productpage1" className="phonglen">
                                     <span>Thời Trang Nam</span>
-                                </a>
+                                </Link>
                                 <div className="thunho">
                                     <ul>
                                         <li>
-                                            <a>
+                                            <Link to="/productpage1">
                                                 <span>Áo Nam</span>
-                                            </a>
+                                            </Link>
                                             <ul>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Áo Khoác Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Áo Thun Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Áo Sơmi Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a>
+                                            <Link to="/productpage1">
                                                 <span>Quần Nam</span>
-                                            </a>
+                                            </Link>
                                             <ul>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Quần Jean Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Quần Kaki Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/productpage1">
                                                         <span>Quần tây Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a>
+                                            <Link to="/productpage1">
                                                 <span>Đồ Thể Thao Nam</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="/productpage1" className="phonglen">
+                                <Link  to="/productpage1" className="phonglen">
                                     <span>Thời Trang Nữ</span>
-                                </a>
+                                </Link>
                                 <ul className="thunho">
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Áo Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Quần Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Đồ Thể Thao Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/productpage1" className="phonglen">
+                                <Link  to="/productpage1" className="phonglen">
                                     <span>Phụ Kiện</span>
-                                </a>
+                                </Link>
                                 <ul className="thunho">
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Phụ Kiện Nam</span>
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Giày Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Mũ Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Nước Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Phụ Kiện Nữ</span>
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Giày Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Mũ Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/productpage1">
                                                     <span>Áo Khoác Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/productpage1">
                                             <span>Phụ Kiện Tổng Hợp</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a>
+                                <Link to="/productpage1">
                                     <span>Blog</span>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a>
+                                <Link to="/productpage1">
                                     <span>Liên Hệ</span>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -177,11 +227,18 @@ class List extends Component {
                                 <label for="dong1">Zyp</label>
                             </div>
                             <div className="bon">
-                                <input id="dong1" type="checkbox" />
+                                <input 
+                                    onClick={ this.changed }
+                                    // () => this.props.filterBrand()
+                                      id="dong1" type="checkbox" 
+                                />
                                 <label for="dong1">Puma</label>
                             </div>
                             <div className="nam">
-                                <input id="dong1" type="checkbox" />
+                                <input 
+                                    onClick={this.changed1} 
+                                    id="dong1" type="checkbox" 
+                                />
                                 <label for="dong1">NIKE</label>
                             </div>
                         </div>
@@ -192,11 +249,17 @@ class List extends Component {
                             <div className="kichthuoc1">
                                 <h1>Kích Thước</h1>
                                 <div className="mot">
-                                    <input id="dong1" type="checkbox" />
+                                    <input 
+                                        onClick={ this.changed2} 
+                                        id="dong1" type="checkbox" 
+                                    />
                                     <label for="dong1">XS</label>
                                 </div>
                                 <div className="hai">
-                                    <input id="dong1" type="checkbox" />
+                                    <input 
+                                        onClick={ this.changed3} 
+                                        id="dong1" type="checkbox" 
+                                    />
                                     <label for="dong1">S</label>
                                 </div>
                                 <div className="ba">
@@ -247,7 +310,7 @@ class List extends Component {
                         <h1>LIKE PAGE TRÊN FACEBOOK</h1>
                     </div>
                     <div className="oface">
-                        <iframe title="slide" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwelax.vn%2F%3Fhc_ref%3DART1M5ZL_ok3-fAU8akTUeG5D8cTUvgADVQNu14O-X4DHM-zPMOxEHGi_9YCqAvDNXc%26fref%3Dnf&tabs=timeline&width=320&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width={245} height={280} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder={0} allowTransparency="true" />
+                        <iframe title="slide" src="https://www.facebook.com/plugins/page.php?to=https%3A%2F%2Fwww.facebook.com%2Fwelax.vn%2F%3Fhc_ref%3DART1M5ZL_ok3-fAU8akTUeG5D8cTUvgADVQNu14O-X4DHM-zPMOxEHGi_9YCqAvDNXc%26fref%3Dnf&tabs=timeline&width=320&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width={245} height={280} style={{ border: 'none', overflow: 'hidden' }} scrolling="no" frameBorder={0} allowTransparency="true" />
                     </div>
                 </div>
 

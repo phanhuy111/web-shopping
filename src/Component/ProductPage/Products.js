@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Product from './Product';
 import { connect } from 'react-redux'
+// import initialState from './../Redux/Reducer/initialState';
 
 
 class Products extends Component {
@@ -12,7 +13,9 @@ class Products extends Component {
     }
     
     render() {
-        const catalogItems = this.props.products;
+        const catalogItems = this.props.dl;
+        // console.log(catalogItems)
+        // const catalogItems = this.props.filterData;
         return (
             <div className="noidung">
                 <div className="tieude4">

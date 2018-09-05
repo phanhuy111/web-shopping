@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 
 class Footer extends Component {
     render() {
@@ -10,9 +11,9 @@ class Footer extends Component {
                             <h1>GIỚI THIỆU CHUNG</h1>
                             <div className="duoi">
                                 <ul>
-                                    <li><a href="/">Tìm Kiếm</a></li>
-                                    <li><a href="/intro">Giới Thiệu</a></li>
-                                    <li><a href="/contact">Hỏi Đáp</a></li>
+                                    <li><Link to="/">Tìm Kiếm</Link></li>
+                                    <li><Link to="/intro">Giới Thiệu</Link></li>
+                                    <li><Link to="/contact">Hỏi Đáp</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -20,12 +21,12 @@ class Footer extends Component {
                             <h1>HƯỚNG DẪN MUA HÀNG</h1>
                             <div className="duoi">
                                 <ul>
-                                    <li><a href="/productpage1">Thời Trang Nam</a></li>
-                                    <li><a href="/productpage1">Thời Trang Nữ</a></li>
-                                    <li><a href="/productpage1">Phụ Kiện</a></li>
-                                    <li><a href="/news">Blog</a></li>
-                                    <li><a href="/productpage1">Nổi Bật</a></li>
-                                    <li><a href="/contact">FAQ</a></li>
+                                    <li><Link to="/productpage1">Thời Trang Nam</Link></li>
+                                    <li><Link to="/productpage1">Thời Trang Nữ</Link></li>
+                                    <li><Link to="/productpage1">Phụ Kiện</Link></li>
+                                    <li><Link to="/news">Blog</Link></li>
+                                    <li><Link to="/productpage1">Nổi Bật</Link></li>
+                                    <li><Link to="/contact">FAQ</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -33,9 +34,9 @@ class Footer extends Component {
                             <h1>CHĂM SÓC KHÁCH HÀNG</h1>
                             <div className="duoi">
                                 <ul>
-                                    <li><a href="/infor">Giao Hàng Và Đổi Trả</a></li>
-                                    <li><a href="/product">Bảng Kích Thước</a></li>
-                                    <li><a href="/contact">Khuyến Mãi</a></li>
+                                    <li><Link to="/infor">Giao Hàng Và Đổi Trả</Link></li>
+                                    <li><Link to="/product">Bảng Kích Thước</Link></li>
+                                    <li><Link to="/contact">Khuyến Mãi</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -46,16 +47,16 @@ class Footer extends Component {
                             <h1>Kết Nối Với Chúng Tôi</h1>
                             <div className="logo">
                                 <ul>
-                                    <li><a href="https://www.facebook.com/phanjr.99" className="face wow bounceInUp">1</a></li>
+                                    <li><Link to="https://www.facebook.com/phanjr.99" className="face wow bounceInUp">1</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="https://www.facebook.com/phanjr.99" className="ins wow bounceInUp">2</a></li>
+                                    <li><Link to="https://www.facebook.com/phanjr.99" className="ins wow bounceInUp">2</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="https://www.facebook.com/phanjr.99" className="google wow bounceInUp">3</a></li>
+                                    <li><Link to="https://www.facebook.com/phanjr.99" className="google wow bounceInUp">3</Link></li>
                                 </ul>
                                 <ul>
-                                    <li><a href="https://www.facebook.com/phanjr.99" className="twitter wow bounceInUp">4</a></li>
+                                    <li><Link to="https://www.facebook.com/phanjr.99" className="twitter wow bounceInUp">4</Link></li>
                                 </ul>
                             </div>
                         </div>

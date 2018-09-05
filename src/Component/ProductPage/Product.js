@@ -6,25 +6,24 @@ import _ from 'lodash'
 
 class Product extends Component {
   render() {      
-    return _.map(this.props.items,(item,i) => {
-      return (
-        <div className="hang1" key={i}>
-        <ul className="thoitrangnu wow bounceInUp" data-wow-delay="0s">
-          <li><a href="/product"  onClick={() => this.props.addToPro(item)}>
-          <img alt="" src={item.picture1} /></a></li>
-          <a href="/product"  onClick={() => this.props.addToPro(item)}> {item.name} </a>
-          <p>{item.price} $</p>
-          <button className="muahang"  onClick={() => this.props.addToCart(item)}> Mua Hàng </button>
-        </ul>
-      </div>
-      )
-    })
+      return _.map(this.props.items,(item,i) => {
+        return (
+          <div className="hang1" key={i}>
+          <ul className="thoitrangnu wow bounceInUp" data-wow-delay="0s">
+            <li><a href="/product"  onClick={() => this.props.addToPro(item)}>
+            <img alt="" src={item.picture1} /></a></li>
+            <a href="/product"  onClick={() => this.props.addToPro(item)}> {item.name} </a>
+            <p>{item.price} $</p>
+            <button className="muahang"  onClick={() => this.props.addToCart(item)}> Mua Hàng </button>
+          </ul>
+        </div>
+        )
+      })
   }
 }
 
 const mapStateToProps = (state) => {
   return {
-    products: state.products,
     detail: state.detail
   }
 }

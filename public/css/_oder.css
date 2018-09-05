@@ -66,6 +66,7 @@ textarea#txtNote{
 
 select#slTakeFromShop {
     width: 400px;
+    height: 32px;
 }
 
 
@@ -92,6 +93,7 @@ select#slTakeFromShop {
     text-decoration: none;
     color: black;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .congcu{
@@ -110,7 +112,8 @@ select#slTakeFromShop {
 
 .stepper-input .decrement, .stepper-input .increment  {
     font-size: 24px;
-    padding: 10px
+    padding: 10px;
+    cursor: pointer;
 }
 
 .quantity{

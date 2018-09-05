@@ -14,7 +14,7 @@ class OderLine extends Component {
                 </div>
                 <span>
                     <a href="/product">{item.product.name}</a>
-                    <p>size M</p>
+                    <p> size M </p>
                 </span>
                 <div className="congcu">
                     <Quantity item={item} /> 

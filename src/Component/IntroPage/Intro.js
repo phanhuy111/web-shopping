@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import VideoStream from './Videostream';
 
 class Intro extends Component {
@@ -32,7 +33,7 @@ class Intro extends Component {
                         </ul>
                     </div>
                     <p>Bạn có thể chỉnh sửa hoặc xoá bài viết này tại
-            <a href="/"><strong> đây</strong></a> hoặc thêm những bài viết mới trong phần quản lý <a href="/"><strong> Trang nội dung</strong></a>.</p>
+            <Link to="/"><strong> đây</strong></Link> hoặc thêm những bài viết mới trong phần quản lý <Link to="/"><strong> Trang nội dung</strong></Link>.</p>
                 </div>
             </div>
         );

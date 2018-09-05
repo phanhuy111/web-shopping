@@ -70,12 +70,12 @@ class NewProducts extends Component {
                     <div className="tieude">
                         <nav>
                             <ul>
-                                <li class="nav-item"  >< a className="tatca" onClick={this.showAll.bind(this)}>Tất Cả</a></li>
-                                <li class="nav-item"  >< a className="thoitrangnam"  onClick={this.filterData.bind(this)}>Thời Trang Nam</a></li>
-                                <li class="nav-item"  >< a className="thoitrangnu" onClick={this.filterData1.bind(this)} >Thời Trang Nữ</a></li>
-                                <li class="nav-item"  >< a className="phukien" >Phụ Kiện</a></li>
-                                <li class="nav-item"  >< a className="auphuc" >Âu Phục</a></li>
-                                <li class="nav-item"  >< a className="noibat" >Nổi Bật</a></li>
+                                <li className="nav-item"  >< a className="tatca" onClick={this.showAll.bind(this)}>Tất Cả</a></li>
+                                <li className="nav-item"  >< a className="thoitrangnam"  onClick={this.filterData.bind(this)}>Thời Trang Nam</a></li>
+                                <li className="nav-item"  >< a className="thoitrangnu" onClick={this.filterData1.bind(this)} >Thời Trang Nữ</a></li>
+                                <li className="nav-item"  >< a className="phukien" >Phụ Kiện</a></li>
+                                <li className="nav-item"  >< a className="auphuc" >Âu Phục</a></li>
+                                <li className="nav-item"  >< a className="noibat" >Nổi Bật</a></li>
                             </ul>
                         </nav>
                     </div>

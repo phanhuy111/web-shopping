@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class ListM extends Component {
     render() {
@@ -11,150 +12,150 @@ class ListM extends Component {
                     <div class="duoidanhmuc1">
                         <ul>
                             <li>
-                                <a href="/productpage1" class="phonglen">
+                                <Link href="/productpage1" class="phonglen">
                                     <span>Thời Trang Nam</span>
-                                </a>
+                                </Link>
                                 <div class="thunho">
                                     <ul>
                                         <li>
-                                            <a>
+                                            <Link to="/">
                                                 <span>Áo Nam</span>
-                                            </a>
+                                            </Link>
                                             <ul>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Áo Khoác Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Áo Thun Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Áo Sơmi Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a>
+                                            <Link to="/">
                                                 <span>Quần Nam</span>
-                                            </a>
+                                            </Link>
                                             <ul>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Quần Jean Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Quần Kaki Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                                 <li>
-                                                    <a>
+                                                    <Link to="/">
                                                         <span>Quần tây Nam</span>
-                                                    </a>
+                                                    </Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a>
+                                            <Link to="/">
                                                 <span>Đồ Thể Thao Nam</span>
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="/productpage1" class="phonglen">
+                                <Link href="/productpage1" class="phonglen">
                                     <span>Thời Trang Nữ</span>
-                                </a>
+                                </Link>
                                 <ul class="thunho">
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Áo Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Quần Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Đồ Thể Thao Nữ</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/productpage1" class="phonglen">
+                                <Link href="/productpage1" class="phonglen">
                                     <span>Phụ Kiện</span>
-                                </a>
+                                </Link>
                                 <ul class="thunho">
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Phụ Kiện Nam</span>
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Giày Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Mũ Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Nước Nam</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Phụ Kiện Nữ</span>
-                                        </a>
+                                        </Link>
                                         <ul>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Giày Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Mũ Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a>
+                                                <Link to="/">
                                                     <span>Áo Khoác Nữ</span>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a>
+                                        <Link to="/">
                                             <span>Phụ Kiện Tổng Hợp</span>
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/intro">
+                                <Link href="/intro">
                                     <span>Blog</span>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/contact">
+                                <Link href="/contact">
                                     <span>Liên Hệ</span>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
