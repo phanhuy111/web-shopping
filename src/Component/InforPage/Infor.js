@@ -54,7 +54,6 @@ class Infor extends Component {
 
 
     onSubmit = (e) => {
-
         e.preventDefault();
         const itemsRef = firebase.database().ref('todos');
         const todo = {

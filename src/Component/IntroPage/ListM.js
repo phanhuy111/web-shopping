@@ -12,7 +12,7 @@ class ListM extends Component {
                     <div class="duoidanhmuc1">
                         <ul>
                             <li>
-                                <Link href="/productpage1" class="phonglen">
+                                <Link to="/productpage1" class="phonglen">
                                     <span>Thời Trang Nam</span>
                                 </Link>
                                 <div class="thunho">
@@ -70,7 +70,7 @@ class ListM extends Component {
                                 </div>
                             </li>
                             <li>
-                                <Link href="/productpage1" class="phonglen">
+                                <Link to="/productpage1" class="phonglen">
                                     <span>Thời Trang Nữ</span>
                                 </Link>
                                 <ul class="thunho">
@@ -92,7 +92,7 @@ class ListM extends Component {
                                 </ul>
                             </li>
                             <li>
-                                <Link href="/productpage1" class="phonglen">
+                                <Link to="/productpage1" class="phonglen">
                                     <span>Phụ Kiện</span>
                                 </Link>
                                 <ul class="thunho">
@@ -148,12 +148,12 @@ class ListM extends Component {
                                 </ul>
                             </li>
                             <li>
-                                <Link href="/intro">
+                                <Link to="/intro">
                                     <span>Blog</span>
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact">
+                                <Link to="/contact">
                                     <span>Liên Hệ</span>
                                 </Link>
                             </li>
