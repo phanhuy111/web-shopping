@@ -7,7 +7,8 @@ class OderBox extends Component {
     constructor() {
         super();
         this.state = {
-            items: []
+            items: [],
+            hien: false
         }
     }
 
@@ -25,7 +26,38 @@ class OderBox extends Component {
             return item.quantity * parseInt(item.product.price, 0);
           })
         firebase.database().ref('donhang').push(sanpham)
+        this.setState({
+             hien : true
+        });
     }
+
+    AppearModal=()=>{
+        this.setState({
+            hien : false 
+        });
+    }
+
+    AppearModal11 = () =>{
+        if(this.state.hien === true){
+           return(
+                 <div className="modal11">
+                <div className="tieude1111">
+                    <h1>
+                        Chúc Mừng Bạn Đã Mua Hàng Thành Công
+                    </h1>
+                </div>
+                <div className="nutclo">
+                    <button 
+                       onClick={()=>this.AppearModal()}
+                    >
+                        Close
+                    </button>
+                </div>
+            </div>
+           )
+        }
+    }
+
 
   render() {
         const { cart } = this.props;      
@@ -33,6 +65,7 @@ class OderBox extends Component {
             return item.quantity * parseInt(item.product.price, 0);
         });
         return (
+            
             <div className="thongtinsanpham col-sm-12 col-md-6">
                 <div className="tieude5">
                     <h4>Chi tiết sản phẩm trong giỏ hàng</h4>
@@ -50,6 +83,9 @@ class OderBox extends Component {
                         Đặt Hàng
                     </button>
                 </div>
+                {
+                  this.AppearModal11()
+                }
             </div>
         )
     }

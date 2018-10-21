@@ -135,3 +135,29 @@ select#slTakeFromShop {
 .total1{
    margin-left: 328px;    
 }
+
+.modal11 {
+    border: 1px solid white;
+    width: 506px;
+    margin-left: 26px;
+    margin-top: 36px;
+    /* background-color: aliceblue; */
+    padding: 10px 26px;
+    box-shadow: 4px 4px 20px 0px;
+}
+
+.tieude1111 h1 {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+
+.nutclo {
+    padding: 5px 377px;
+}
+
+.nutclo button {
+    border: 1px solid transparent;
+    background: black;
+    color: white;
+    padding: 6px 17px;
+}
