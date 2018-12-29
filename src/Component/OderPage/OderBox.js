@@ -19,12 +19,13 @@ class OderBox extends Component {
         sanpham.sodienthoai= this.props.sodienthoai;
         sanpham.diachi= this.props.diachi;
         sanpham.ghichu= this.props.ghichu;
-        sanpham.ten = this.props.cart.map((item)=>{
+        sanpham.tensp = this.props.cart.map((item)=>{
             return item.product.name
           })
         sanpham.gia = this.props.cart.map((item)=>{
             return item.quantity * parseInt(item.product.price, 0);
           })
+        console.log(sanpham)
         firebase.database().ref('donhang').push(sanpham)
         this.setState({
              hien : true

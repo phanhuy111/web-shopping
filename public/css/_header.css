@@ -78,6 +78,17 @@ form.search.search-form.clearfix {
     padding: 3px 25px;
 }
 
+span.NOY {
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    padding: 0px 7px;
+    margin: 10px 43px;
+    z-index: 12;
+}
+
 .trai1 ul {
     display: -webkit-inline-box;
     list-style: none;

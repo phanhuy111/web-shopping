@@ -24,11 +24,21 @@
 }
 
 input#txtCustomerName {
-    width:  400px;
+    width: 400px;
+    border: 1px solid darkgrey;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+
+.ten1 {
+    display: grid;
 }
 
 input#txtAddressLine {
     width:  400px;
+    border: 1px solid darkgrey;
+    padding: 5px 5px;
+    border-radius: 4px;
 }
 
 textarea#txtNote{
@@ -161,3 +171,17 @@ select#slTakeFromShop {
     color: white;
     padding: 6px 17px;
 }
+
+
+/* address */
+
+.errorMessage {
+    color: red;
+    font-size: 0.75em;
+    /* display: relative; */
+    display:-webkit-box
+  }
+
+  input.error {
+    border: 1px solid red;
+  }

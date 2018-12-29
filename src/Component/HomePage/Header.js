@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './../image/logo.png';
 import ChangeInfor from './ChangeInfor';
 import {  Link } from "react-router-dom";
+import { connect } from 'react-redux';
 
 class Header extends Component {
     render() {
@@ -37,6 +38,9 @@ class Header extends Component {
                             <li>
                                 <Link to="/order" >
                                     <div className="giohang">
+                                            <span className="NOY">
+                                            {this.props.cart.length}
+                                            </span>  
                                         <i className="fa fa-shopping-bag faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Giỏ Hàng</span>
                                     </div>
@@ -100,5 +104,16 @@ class Header extends Component {
     }
 }
 
+function mapStateToProps(state) {
+    return {
+       cart: state.cart
+   };
+}
 
-export default Header; 
+function mapDispatchToProps(dispatch) {
+   return {
+   }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
+

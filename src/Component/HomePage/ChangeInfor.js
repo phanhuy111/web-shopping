@@ -6,10 +6,11 @@ import Signout from './Signout';
 
 const ChangeInfor = (props, { authUser }) =>
     <div>
-        {authUser ?
+        {
+            authUser ?
             (
                 <div className="dangnhap">
-                    <h1 style={{ fontSize: '15px', padding: '5px 0px', marginLeft:'-39px' }} > Xin Chào : {authUser.email} </h1>
+                    <h1 style={{ fontSize: '15px', marginTop: '3px', marginLeft:'-39px' }} > Xin Chào : {authUser.email} </h1>
                     <Signout />
                 </div>
             )

@@ -5,16 +5,17 @@ const withAuthentication = (Component) => {
   class WithAuthentication extends React.Component {
     constructor(props) {
       super(props);
-
       this.state = {
         authUser: null,
       };
     }
     
     getChildContext() {
+      // console.log(this.state.authUser)
       return {
         authUser: this.state.authUser,
       };
+      
     }
 
     componentDidMount() {
@@ -23,6 +24,7 @@ const withAuthentication = (Component) => {
           ? this.setState(() => ({ authUser }))
           : this.setState(() => ({ authUser: null }));
       });
+      
     }
 
     render() {
