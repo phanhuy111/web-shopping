@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './../image/logo.png';
 import ChangeInfor from './ChangeInfor';
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 
 class Header extends Component {
@@ -38,10 +38,10 @@ class Header extends Component {
                             <li>
                                 <Link to="/order" >
                                     <div className="giohang">
-                                            <span className="NOY">
+                                        <span className="NOY">
                                             {this.props.cart.length}
-                                            </span>  
-                                        <i className="fa fa-shopping-bag faa-ring animated fa-4x"></i>
+                                        </span>
+                                        <i className="fa fa-user faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Giỏ Hàng</span>
                                     </div>
                                 </Link>
@@ -55,7 +55,7 @@ class Header extends Component {
                                 </Link>
                             </li>
                             <li>
-                                <Link  to="">
+                                <Link to="">
                                     <div className="giohang">
                                         <i className="fa fa-map-marker faa-ring animated fa-4x"></i>
                                         <span className="chulogo">Địa Chỉ</span>
@@ -106,13 +106,13 @@ class Header extends Component {
 
 function mapStateToProps(state) {
     return {
-       cart: state.cart
-   };
+        cart: state.cart
+    };
 }
 
 function mapDispatchToProps(dispatch) {
-   return {
-   }
+    return {
+    }
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);
