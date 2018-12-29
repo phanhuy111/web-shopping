@@ -253,3 +253,37 @@ li.dropdown {
 }
 
 
+.modalP{
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    border: 1px solid black;
+    width: 554px;
+    height: 390px;
+    border-radius: 32px;
+    margin: 0px 330px;
+}
+
+button.nutcancel {
+    padding: 5px 19px;
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    margin: 45px 445px;
+}
+
+.sanpham111 {
+    margin: 10px 28px;
+}
+
+.sanpham111 img {
+    width: 152px;
+}
+
+.sanpham111 p {
+    margin: 5px 27px;
+}
+
+.sanphamtong {
+    display: -webkit-inline-box;
+}

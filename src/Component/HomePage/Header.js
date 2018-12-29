@@ -4,19 +4,98 @@ import ChangeInfor from './ChangeInfor';
 import { Link } from "react-router-dom";
 import { connect } from 'react-redux';
 
+import Fuse from 'fuse.js';
+
 class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            dataSearch: [],
+            value: '',
+            hien: false
+        }
+    }
+
+    componentDidMount() {
+        fetch('https://5a6f2daf7a276d0012b2f64e.mockapi.io/newproduct')
+            .then((Response) => Response.json())
+            .then((findresponse) => {
+                this.setState({
+                    dataSearch: findresponse,
+                })
+            })
+
+    }
+
+    handleChange = (e) => {
+        this.setState({
+            value: e.target.value
+        });
+    }
+
+
+    handleShow = () => {
+        this.setState({
+            hien: true
+        });
+    }
+
+    handleShow1 = () => {
+        this.setState({
+            hien: false
+        });
+    }
+
+    showResult = () => {
+        const options = {
+            keys: ['name']
+        }
+        const fuse = new Fuse(this.state.dataSearch, options)
+        const result = fuse.search(this.state.value)
+        console.log(result)
+        if (this.state.hien === true) {
+            return (
+                result.map((e, i) => {
+                    return (
+                        <div className="modalP">
+                            <div className="sanphamtong" key={i}>
+                                <div className="sanpham111">
+                                    <img src={e.picture1} />
+                                    <p>{e.name}</p>
+                                    <p>{e.price}$</p>
+                                </div>
+                            </div>
+                            <button
+                                className="nutcancel"
+                                onClick={this.handleShow1}
+                            >
+                                Cancel
+                        </button>
+                        </div>
+                    )
+                })
+            )
+        }
+    }
+
     render() {
         return (
             <div>
                 <div className="top" >
                     <div className="logo"><Link to="/"><img src={logo} alt="logo" /></Link></div>
                     <div className="form">
-                        <form data-awesome-search="" className="search search-form clearfix" action="/search">
-                            <input type="hidden" name="type" value="product" />
-                            <input type="text" name="quantity" id="search_tern" required="" className="search_box ui-search-field" value="" placeholder="Tìm kiếm" />
-                            <button className="ui-button"><i className="fa fa-search"></i></button>
-                            <div className="awesome-search-result p-10" style={{ display: 'none' }}></div>
-                        </form>
+                        <div data-awesome-search="" className="search search-form clearfix">
+                            <input
+                                type="text"
+                                name="quantity"
+                                id="search_tern"
+                                required=""
+                                className="search_box ui-search-field"
+                                value={this.state.value}
+                                onChange={this.handleChange}
+                                placeholder="Tìm kiếm" />
+                            <button className="ui-button" onClick={this.handleShow}><i className="fa fa-search"></i></button>
+                        </div>
                         <div className="logo1">
                             <ul>
                                 <li><Link to="https://www.facebook.com/phanjr.99" className="face wow bounceInUp"><span>facebook</span></Link></li>
@@ -66,6 +145,9 @@ class Header extends Component {
                     </div>
                 </div>
                 <hr style={{ marginBottom: '0px', marginTop: '2px', size: '30px' }} />
+                {
+                    this.showResult()
+                }
                 <nav className="navbar navbar-expand-md">
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav mr-auto">

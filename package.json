@@ -12,7 +12,7 @@
     "firebase": "^4.12.1",
     "firestore-react": "^0.1.5",
     "firestorter": "^0.10.0",
-    "fuse.js": "^3.2.0",
+    "fuse.js": "^3.3.0",
     "lodash": "^4.17.5",
     "mdbootstrap": "^4.4.4",
     "mobx": "^4.1.1",
